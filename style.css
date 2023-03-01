@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;500;600;700;800;900&display=swap');
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.parent-container{
+    display: flex;
+}
+
+.sedans, .suvs, .luxury{
+    width: 172px;
+    height: 320px;
+    padding: 32px;
+}
+
+.sedans {
+    background-color: #e28525;
+}
+
+.suvs {
+    background-color: #016972;
+}
+
+.luxury{
+    background-color: #00403f;
+}
+
+.sedans h1, .suvs h1, .luxury h1{
+    color: white;
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+.sedans p, .suvs p, .luxury p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.sedans button, .suvs button, .luxury button{
+    padding: 8px 16px; 
+    border-radius: 80px;
+    border: none;
+}
+
+.sedans button{
+    color: #e28525;
+}
+
+.sedans button:hover, .suvs button:hover, .luxury button:hover{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
